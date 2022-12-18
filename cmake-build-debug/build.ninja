@@ -79,6 +79,12 @@ build CMakeFiles/Leetcode.dir/src/offer/stack_and_queue/T31/main.cpp.obj: CXX_CO
   OBJECT_DIR = CMakeFiles\Leetcode.dir
   OBJECT_FILE_DIR = CMakeFiles\Leetcode.dir\src\offer\stack_and_queue\T31
 
+build CMakeFiles/Leetcode.dir/src/offer/array/T3/main.cpp.obj: CXX_COMPILER__Leetcode_Debug E$:/Project/C/Leetcode/src/offer/array/T3/main.cpp || cmake_object_order_depends_target_Leetcode
+  DEP_FILE = CMakeFiles\Leetcode.dir\src\offer\array\T3\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Leetcode.dir
+  OBJECT_FILE_DIR = CMakeFiles\Leetcode.dir\src\offer\array\T3
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Leetcode
@@ -87,7 +93,7 @@ build CMakeFiles/Leetcode.dir/src/offer/stack_and_queue/T31/main.cpp.obj: CXX_CO
 #############################################
 # Link the executable Leetcode.exe
 
-build Leetcode.exe: CXX_EXECUTABLE_LINKER__Leetcode_Debug CMakeFiles/Leetcode.dir/main.cpp.obj CMakeFiles/Leetcode.dir/src/offer/stack_and_queue/T9/main.cpp.obj CMakeFiles/Leetcode.dir/src/offer/stack_and_queue/T30/main.cpp.obj CMakeFiles/Leetcode.dir/src/offer/stack_and_queue/T6/main.cpp.obj CMakeFiles/Leetcode.dir/src/offer/stack_and_queue/T31/main.cpp.obj
+build Leetcode.exe: CXX_EXECUTABLE_LINKER__Leetcode_Debug CMakeFiles/Leetcode.dir/main.cpp.obj CMakeFiles/Leetcode.dir/src/offer/stack_and_queue/T9/main.cpp.obj CMakeFiles/Leetcode.dir/src/offer/stack_and_queue/T30/main.cpp.obj CMakeFiles/Leetcode.dir/src/offer/stack_and_queue/T6/main.cpp.obj CMakeFiles/Leetcode.dir/src/offer/stack_and_queue/T31/main.cpp.obj CMakeFiles/Leetcode.dir/src/offer/array/T3/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Leetcode.dir
